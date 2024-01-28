@@ -75,7 +75,7 @@ if uploaded_file is not None:
         
         # 結果のテキストを表示
         if predicted.item() == 0:
-            st.write('生成系AIで生成された画像です。')
+            st.write('GANで生成された画像です。')
         else:
             st.write('本物の画像です。')
         
