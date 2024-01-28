@@ -12,10 +12,10 @@ st.title('CNN TruthFinder')
 st.write('GANで生成された画像と本物の画像をCNNによって識別します。')
 
 # PNGファイルのパスをリストとして定義
-file_paths = ['gan_image1.png', 'gan_image2.png', 'true_image1.png', 'true_image2.png']
+file_paths = ['image/gan_image1.png', 'image/gan_image2.png', 'image/true_image1.png', 'image/true_image2.png']
 
 # ZIPファイルの名前を定義
-zip_name = "test_images.zip"
+zip_name = "image/test_images.zip"
 
 # ZIPファイルを作成
 with zipfile.ZipFile(zip_name, 'w') as zipf:
