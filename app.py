@@ -8,7 +8,7 @@ import os
 import zipfile
 
 # Streamlitウェブアプリのタイトル
-st.title('CNN TruthFinder')
+st.title('CNN TruthFinder🤖')
 st.write('GANで生成された画像と本物の画像をCNNによって識別します。')
 
 # PNGファイルのパスをリストとして定義
