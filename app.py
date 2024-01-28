@@ -7,6 +7,9 @@ from model import CNN
 import os
 import zipfile
 
+#バナーの表示
+st.image('banner.png', use_column_width=True)
+
 # Streamlitウェブアプリのタイトル
 st.title('CNN TruthFinder🤖')
 st.write('GANで生成された画像と本物の画像をCNNによって識別します。')
